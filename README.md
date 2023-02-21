@@ -9,12 +9,12 @@ Funciones de flechas, Funciones trdicionales, Array y objetos.
 <br>
 Metodos como:
 <br>
-ForEach🧨
+-ForEach🧨
 <br>
-Find🖥
+-Find🖥
 <br>
-map ⚙
+-map ⚙
 <br>
-Filter🖲
+-Filter🖲
 <br>
-some🧮
+-some🧮
