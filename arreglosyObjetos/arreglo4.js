@@ -1,11 +1,11 @@
 let inmuebles = [
     {
         id: 1,
-        nombre: "el vip",
+        nombre: "Anderson",
         direccion: "call 100"
     },
     {
-        id: 1,
+        id: 2,
         nombre: "PROVENZA",
         direccion: "call 35"
     },
@@ -18,9 +18,7 @@ let inmuebles = [
 
 
 let buscador = inmuebles.find(function(inmueble){
-
-    return(inmueble.id == 1)
-
+    return(inmueble.nombre == 'Anderson')
 });
 
 console.log(buscador);

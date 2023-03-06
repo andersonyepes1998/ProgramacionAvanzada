@@ -7,6 +7,9 @@ let mayores = numeros.filter(function(numero){
 });
 
 
+let mayores2 = numeros.filter(numero => numero >=50)
+
+
 
 //mapear el filtro y restarle a cada elementodel del arreglo 10
 
@@ -14,6 +17,8 @@ let mayores = numeros.filter(function(numero){
 let numerosMenos10 = mayores.map(function(numero){
     return numero=numero-10;
 })
+
+let numerosMenos102 = mayores.map(numero => numero=numero-10)
 
 
 //encontrar si esta el numero 10
