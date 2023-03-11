@@ -18,12 +18,12 @@
 // console.log('El numero mas cercano a cero es:'+numeroMasCercano(numeros));
 
 
-let numeros = [0,-6,3,6,7,9,40,50,]
+let numeros = [1,0,-2,3,6,7,9,40,50,]
 
-let retorno = numeros.find(function(numero){
+numeros.map(function(numero){
     if(numero<0){
-        return(Math.abs(numero-0))
+        numero = Math.abs(numero)
+        console.log(numero)
     }
+    return numero
 })
-
-console.log(retorno);
