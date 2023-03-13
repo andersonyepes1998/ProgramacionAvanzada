@@ -83,16 +83,9 @@ function clonesSelecionados(clones){
         if(clon.edad==25){
             edades++;
         }
-        let max = clon[0];
-        if(max < clon){
-            max = clon;
-            
-        }
-        return[max];
     })
     return edades;
 }
-console.log("Las edades que se repite son: ", clonesSelecionados(Math.max(clones)));
 console.log("Las edades que se repite son: ", clonesSelecionados(clones));
 
 
